@@ -7,13 +7,12 @@ Installation
 ------------
 
 1. Clone me
-2. `git config --global alias.ff-all '!/path/to/git-ff-all.sh'
-3. 
+2. `git config --global alias.ff-all '!/path/to/git-ff-all.sh'`
 
 Usage
 -----
 
-Just run `git-ff-all`, which will do the following:
+Just run `git ff-all` in your repository's path, which will do the following:
 
 - fetch & prune all remotes
 - fast-forward the checked out branch (if possible)
