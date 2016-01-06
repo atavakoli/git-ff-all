@@ -7,6 +7,7 @@ Installation
 ------------
 
 1. Clone me
+1. `chmod +x /path/to/git-ff-all.sh` (if it's not already)
 2. `git config --global alias.ff-all '!/path/to/git-ff-all.sh'`
 
 Usage
