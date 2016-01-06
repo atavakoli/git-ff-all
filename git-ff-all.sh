@@ -36,4 +36,4 @@ if [ %(refname) != \"\$(git symbolic-ref HEAD 2>/dev/null)\" ]; then
   fi
 fi" refs/heads
 echo "echo -e \"${clrGreen}Done${clrOff}\""
-) | sh | less -XRE
+) | bash | less -XRE
